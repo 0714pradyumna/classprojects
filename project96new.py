@@ -1,6 +1,7 @@
 # Configure the main page by setting its title and icon that will be displayed in a browser tab.
 # Import the streamlit Python module.
 import streamlit as st
+census_df = load_data()
 # Configure your home page.
 st.set_page_config(page_title = 'Census Visualisation Web App',
                    page_icon = '*',
