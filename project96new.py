@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-
+import stramlit as st
 @st.cache()
 def load_data():
 	# Load the Adult Income dataset into DataFrame.
